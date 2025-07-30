@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Registrar Cliente</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/validar.js"></script>
+</head>
+
+<body>
+    <form name="formCliente" action="registrar_cliente.php" method="POST" onsubmit="return validarCliente()">
+        <h2>Registrar Cliente</h2>
+        <input type="text" name="nombre" placeholder="Nombre" required><br>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <input type="text" name="direccion" placeholder="Dirección" required><br>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+
+</html>
